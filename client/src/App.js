@@ -26,15 +26,10 @@ function App() {
               <Link to="/department" className="nav-link">Department</Link>
             </li>
             <li class="nav-item">
-              <Link to="/employee" className="nav-link">Employee</Link>
+              <Link to="/employee" className="nav-link">Employees</Link>
             </li>
           </ul>
         </div>
-
-        {/* <Link to="/customer">Customer</Link> |
-      <Link to="/department">Department</Link> |
-      <Link to="employee">Employee</Link> |
-      <Link to ="ticket">Tickets</Link> */}
         <Switch>
           <Route path="/" component={Home} exact={true} />
           <Route path="/customer" component={CustomerList} />

@@ -29,7 +29,7 @@ class Home extends React.Component {
     render() {
         return (
             <div className="container">
-                <h1 className="text-center">Ticket Master Dashboard</h1>
+                <h2 className="text-center">Ticket Master Dashboard</h2>
                 <hr />
                 <div className="row">
                     <div className="col-md-6"> Bar Chart
